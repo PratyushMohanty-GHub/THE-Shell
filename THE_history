@@ -1,0 +1,20 @@
+cd ..
+cd -
+ls
+clear
+exit
+baywatch -n 2 newborn
+clear
+cat < THE_history > out.txt
+baywatch -n 2 interrupt
+baywatch -n 1 dirty
+baywatch -n 2 newborn
+cd Assistant
+cd -
+cd Program_Manager
+ls | grep .*.c
+baywatch -n 2 newborn
+gedit &
+fg 1
+baywatch -n 1 dirty
+clear
